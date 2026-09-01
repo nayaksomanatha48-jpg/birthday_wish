@@ -1,0 +1,509 @@
+
+/* 🌸 Main Page */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #ff9a9e,
+        #fad0c4,
+        #fbc2eb
+    );
+
+    text-align: center;
+}
+
+
+/* 📦 Main Container */
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+}
+
+
+/* 🎁 Gift */
+
+.gift {
+    font-size: 100px;
+    cursor: pointer;
+    margin: 30px;
+
+    transition: transform 0.3s;
+}
+
+.gift:hover {
+    transform: scale(1.2);
+}
+
+
+/* 🎉 Birthday */
+
+.surprise h1 {
+    color: #d6336c;
+    font-size: 38px;
+}
+
+.surprise h2 {
+    color: #c2185b;
+}
+
+.surprise p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* 📸 Sister Photo */
+
+.sister-photo {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    display: block;
+
+    margin: 20px auto;
+
+    border: 5px solid white;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 🎂 Cake */
+
+.cake {
+    font-size: 80px;
+    margin: 20px;
+}
+
+
+/* 💌 Letter Button */
+
+.letter-btn {
+    background: #ff4b6e;
+    color: white;
+
+    border: none;
+
+    padding: 15px 25px;
+
+    border-radius: 30px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    transition: 0.3s;
+}
+
+.letter-btn:hover {
+    transform: scale(1.08);
+}
+
+
+/* 💌 Birthday Card */
+
+.birthday-card {
+    background: #fffaf0;
+
+    max-width: 600px;
+
+    margin: 20px auto;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.25);
+
+    border: 4px solid #f5c16c;
+
+    animation: cardAppear 1s ease;
+}
+
+
+.card-top {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+.birthday-card h1 {
+    color: #d6336c;
+    font-size: 30px;
+}
+
+
+.card-line {
+    width: 80%;
+    height: 2px;
+
+    background: #f5c16c;
+
+    margin: 20px auto;
+}
+
+
+.letter {
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    color: #444;
+
+    text-align: left;
+}
+
+
+.letter b {
+    color: #d6336c;
+}
+
+
+.card-bottom {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+
+/* 🎵 Music Button */
+
+.music-btn {
+    background: #ff4b6e;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 22px;
+
+    margin-top: 20px;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.music-btn:hover {
+    transform: scale(1.08);
+}
+
+
+/* ✨ Final Surprise Button */
+
+.final-btn {
+    background: linear-gradient(
+        45deg,
+        #ff4b6e,
+        #c2185b
+    );
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 28px;
+
+    margin-top: 15px;
+
+    border-radius: 30px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.final-btn:hover {
+    transform: scale(1.1);
+}
+
+
+/* ✨ Final Surprise Screen */
+
+.final-surprise {
+    background: rgba(255, 255, 255, 0.92);
+
+    padding: 45px 30px;
+
+    border-radius: 30px;
+
+    max-width: 600px;
+
+    margin: auto;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.25);
+
+    animation: finalAppear 1.2s ease;
+}
+
+
+/* ⭐ Sparkles */
+
+.sparkles {
+    font-size: 35px;
+
+    animation: sparkle 1.5s infinite;
+}
+
+
+/* ❤️ Big Heart */
+
+.big-heart {
+    font-size: 100px;
+
+    animation: heartbeat 1.2s infinite;
+}
+
+
+/* 🎉 Final Heading */
+
+.final-surprise h1 {
+    color: #d6336c;
+
+    font-size: 40px;
+
+    margin: 15px 0;
+}
+
+
+.final-surprise h2 {
+    color: #c2185b;
+
+    font-size: 25px;
+}
+
+
+.final-surprise p {
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    color: #444;
+}
+
+
+/* 🎂 Final Cake */
+
+.final-cake {
+    font-size: 85px;
+
+    margin: 20px;
+}
+
+
+.final-surprise h3 {
+    color: #d6336c;
+
+    font-size: 22px;
+}
+
+
+/* 🎁 Final Emojis */
+
+.final-emojis {
+    font-size: 25px;
+
+    margin: 25px 0;
+}
+
+
+/* 🎊 Confetti */
+
+.confetti {
+    position: fixed;
+
+    width: 10px;
+
+    height: 10px;
+
+    top: -20px;
+
+    animation:
+        fall 3s linear forwards;
+
+    z-index: 999;
+}
+
+
+@keyframes fall {
+
+    0% {
+        transform:
+            translateY(0)
+            rotate(0deg);
+
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translateY(100vh)
+            rotate(720deg);
+
+        opacity: 0;
+    }
+
+}
+
+
+/* 💌 Card Animation */
+
+@keyframes cardAppear {
+
+    0% {
+        transform:
+            scale(0.5)
+            rotate(-5deg);
+
+        opacity: 0;
+    }
+
+    100% {
+        transform:
+            scale(1)
+            rotate(0);
+
+        opacity: 1;
+    }
+
+}
+
+
+/* ✨ Final Animation */
+
+@keyframes finalAppear {
+
+    0% {
+        transform:
+            scale(0.3)
+            translateY(50px);
+
+        opacity: 0;
+    }
+
+    100% {
+        transform:
+            scale(1)
+            translateY(0);
+
+        opacity: 1;
+    }
+
+}
+
+
+/* ❤️ Heart Animation */
+
+@keyframes heartbeat {
+
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.15);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+/* ⭐ Sparkle Animation */
+
+@keyframes sparkle {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+/* 📱 Mobile */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 92%;
+        padding: 15px;
+    }
+
+    .surprise h1 {
+        font-size: 30px;
+    }
+
+    .birthday-card {
+        padding: 25px 18px;
+    }
+
+    .birthday-card h1 {
+        font-size: 25px;
+    }
+
+    .letter {
+        font-size: 16px;
+    }
+
+    .final-surprise {
+        padding: 35px 20px;
+    }
+
+    .final-surprise h1 {
+        font-size: 30px;
+    }
+
+    .big-heart {
+        font-size: 80px;
+    }
+
+}
